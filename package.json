@@ -2,7 +2,15 @@
   "name": "github-user-publickeys",
   "description": "Get GitHub users PublicKeys",
   "version": "1.0.0",
-  "author": "Chintan Radia",
+  "author": {
+    "name": "Chintan Radia",
+    "email": "radiachints1512@gmail.com",
+    "url": "http://beatfreaker.github.io/"
+  },
+  "bin": {
+    "github-user-publickey": "cli.js",
+    "github-user-pk": "cli.js"
+  },
   "bugs": {
     "url": "https://github.com/beatfreaker/github-user-publickey/issues"
   },
@@ -10,6 +18,13 @@
     "got": "^4.2.0",
     "meow": "^3.3.0"
   },
+  "devDependencies": {
+    "xo": "^0.9.0"
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ],
   "homepage": "https://github.com/beatfreaker/github-user-publickey#readme",
   "keywords": [
     "api",
@@ -26,6 +41,6 @@
     "url": "git+https://github.com/beatfreaker/github-user-publickey.git"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && node test.js"
   }
 }
