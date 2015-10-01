@@ -1,0 +1,31 @@
+{
+  "name": "github-user-publickeys",
+  "description": "Get GitHub users PublicKeys",
+  "version": "1.0.0",
+  "author": "Chintan Radia",
+  "bugs": {
+    "url": "https://github.com/beatfreaker/github-user-publickey/issues"
+  },
+  "dependencies": {
+    "got": "^4.2.0",
+    "meow": "^3.3.0"
+  },
+  "homepage": "https://github.com/beatfreaker/github-user-publickey#readme",
+  "keywords": [
+    "api",
+    "cli",
+    "github",
+    "publickey",
+    "user",
+    "utility"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatfreaker/github-user-publickey.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
