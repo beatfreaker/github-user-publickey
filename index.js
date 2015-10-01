@@ -11,10 +11,10 @@ module.exports = function (user, cb) {
 
 	url += user + '/keys';
 	got(url).then(function (response) {
-	   var arr = JSON.parse(response.body);
-	   for (var i = 0; i < arr.length; i++) {
-	       publickeys.push(arr[i].key);
-	   }
-	   cb(null, publickeys);
+		var arr = JSON.parse(response.body);
+		for (var i = 0; i < arr.length; i++) {
+			publickeys.push(arr[i].key);
+		}
+		cb(null, publickeys);
 	});
 };
