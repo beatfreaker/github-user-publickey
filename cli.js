@@ -17,12 +17,12 @@ if (!cli.input.length) {
 }
 
 githubUserPublicKey(cli.input[0], function (err, data) {
-    if (err) {
+	if (err) {
 		console.error(err.message);
 		process.exit(1);
 	}
-    
-    for (var i = 0; i < data.length; i++) {
-        console.log(i + 1 + ') ' + data[i]);
-    }
+	
+	for (var i = 0; i < data.length; i++) {
+		console.log(i + 1 + ') ' + data[i]);
+	}
 });
