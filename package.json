@@ -19,8 +19,7 @@
     "meow": "^3.3.0"
   },
   "devDependencies": {
-    "xo": "^0.9.0",
-    "tape": "^4.2.0"
+    "xo": "^0.9.0"
   },
   "files": [
     "cli.js",
@@ -42,6 +41,6 @@
     "url": "git+https://github.com/beatfreaker/github-user-publickey.git"
   },
   "scripts": {
-    "test": "xo && node test.js"
+    "test": "xo"
   }
 }
